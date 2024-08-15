@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.048);
+}
+
+.nav-context{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-title{
+    font-size: 40px;
+}
+.nav-main{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #afaf8d49;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px 0px;
+}
+
+.gradient{
+    background: linear-gradient(#F948B2,#8758F1);
+    color: rgba(255, 255, 255, 0);
+    background-clip: text;
+    margin-bottom: 20px;
+}
+
+.banner-title{
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+.btn-primary{
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.games-section {
+    padding: 40px 20px;
+  }
+  
+  .games-section .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .games-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .games-section p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .videos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .video-item {
+    width: 23%;
+    text-align: left;
+  }
+  
+  .video-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .video-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  
