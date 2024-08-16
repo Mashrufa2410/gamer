@@ -135,5 +135,53 @@ li{
     font-size: 14px;
     color: #333;
   }
-  
+  .careers-section {
+    background-color: #ff42a8;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content {
+    max-width: 35%;
+}
+
+.careers-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.careers-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.job-listings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.job-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.see-positions-btn {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff42a8;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
   
